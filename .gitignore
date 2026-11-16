@@ -1,0 +1,30 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Secrets
+.env
+.secret
+*.key
+*.pem
+
+# Database and runtime data
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+data/inbox_*.jsonl
+
+# Logs
+*.log
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
